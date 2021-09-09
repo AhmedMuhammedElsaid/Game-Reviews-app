@@ -1,12 +1,12 @@
-import React from 'react'
-import { Text, View } from 'react-native'
-
+import React from "react";
+import { Text, View } from "react-native";
+import { globalStyles } from "../../styles/global";
 const Home = () => {
-    return (
-        <View>
-          <Text>Home Page</Text>
-        </View>
-    )
-}
+  return (
+    <View style={globalStyles.container}>
+      <Text style={globalStyles.titleText}>Home Page</Text>
+    </View>
+  );
+};
 
-export default Home
+export default Home;

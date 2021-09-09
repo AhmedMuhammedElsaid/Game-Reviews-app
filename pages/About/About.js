@@ -1,12 +1,13 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from "react";
+import { Text, View } from "react-native";
+import { globalStyles } from "../../styles/global";
 
 const About = () => {
-    return (
-        <View>
-          <Text>About Page</Text>
-        </View>
-    )
-}
+  return (
+    <View style={globalStyles.container}>
+      <Text>About Page</Text>
+    </View>
+  );
+};
 
-export default About
+export default About;
